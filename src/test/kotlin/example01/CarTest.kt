@@ -1,6 +1,7 @@
 package example01
 
 import isEqualType
+import isNotEqualType
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
@@ -12,12 +13,14 @@ internal class CarTest {
     fun createCarWithJTire() {
         //given
         val jTire = JTire()
+        val kTire = KTire()
 
         //when
         val createCarWithJTire = Car.createCarWithJTire();
 
         //then
         isEqualType(jTire, createCarWithJTire.tire)
+        isNotEqualType(kTire, createCarWithJTire.tire)
     }
 
 }

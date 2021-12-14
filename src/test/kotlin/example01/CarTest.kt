@@ -19,8 +19,8 @@ internal class CarTest {
         val createCarWithJTire = Car.createCarWithJTire();
 
         //then
-        isEqualType(jTire, createCarWithJTire.tire)
-        isNotEqualType(kTire, createCarWithJTire.tire)
+        assertTrue(isEqualType(jTire, createCarWithJTire.tire))
+        assertTrue(isNotEqualType(kTire, createCarWithJTire.tire))
     }
 
 }

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example01.CarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-14T07:25:02" hostname="roachui-MacBookPro.local" time="0.051">
-  <properties/>
-  <testcase name="JTire Factory Method 를 이용해 정상적으로 JTire 가 공급되는지 확인합니다." classname="example01.CarTest" time="0.051"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

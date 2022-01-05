@@ -17,8 +17,14 @@ fun easyWithLambda(people: List<Person>) {
   println(theOldestPerson)
 }
 
+fun easyWithLambdaV2(people: List<Person>) {
+  val theOldestPerson = people.maxByOrNull(Person::age)
+  println(theOldestPerson)
+}
+
 fun main() {
   val people = listOf<Person>(Person("Alice", 29), Person("Bob", 31))
   findTheOldest(people)
   easyWithLambda(people)
+  easyWithLambdaV2(people)
 }
